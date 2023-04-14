@@ -1,0 +1,14 @@
+.past-projects{
+    display: grid;
+    margin-top: 5rem;
+    border: 1px solid black;
+    background: white;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project3,
+.project2,
+.project1{
+    height: 400px;
+    margin :20px;
+}
