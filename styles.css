@@ -1,4 +1,6 @@
-
+ul {
+    list-style: none;
+}
 
 .header {
     display: flex;
@@ -124,17 +126,6 @@ span {
     font-size: 14px;
     font-style: italic;
 }
-
-/* @media screen and (min-width: 650px) and (max-width: 950px) {
-    .two-divs-container {
-    padding-top: 8px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-top: none;
-    border: 1px solid black;
-    flex-direction: row;
-}
-} */
 
 @media screen and (max-width: 650px) {
     .two-divs-container {
