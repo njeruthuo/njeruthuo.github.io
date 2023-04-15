@@ -1,13 +1,4 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    background-color: rgb(233, 229, 229);
-    padding: 0;
-}
 
-ul {
-    list-style: none;
-}
 
 .header {
     display: flex;
@@ -34,10 +25,10 @@ ul {
 
 @media screen and (max-width: 600px) {
     .intro {
-    /* width: 85%; */
-    display: grid;
-    grid-template-columns: 1fr;
-}
+        /* width: 85%; */
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .th-dots-container {
@@ -86,7 +77,8 @@ ul {
 
 .two-divs-container {
     padding-top: 8px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     border-top: none;
     border: 1px solid black;
     flex-direction: row;
@@ -105,7 +97,7 @@ ul {
 
 .div2,
 .div1 {
-    flex: 1;
+    margin:12px;    
 }
 
 .div2 {
@@ -131,4 +123,26 @@ ul {
 span {
     font-size: 14px;
     font-style: italic;
+}
+
+/* @media screen and (min-width: 650px) and (max-width: 950px) {
+    .two-divs-container {
+    padding-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: none;
+    border: 1px solid black;
+    flex-direction: row;
+}
+} */
+
+@media screen and (max-width: 650px) {
+    .two-divs-container {
+        padding-top: 8px;
+        display: grid;
+        grid-template-columns: 1fr;
+        border-top: none;
+        border: 1px solid black;
+        flex-direction: row;
+    }
 }
