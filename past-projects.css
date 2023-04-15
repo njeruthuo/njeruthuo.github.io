@@ -12,7 +12,7 @@
     position: relative;
     margin: 10px 0;
     height: 450px;
-    /*  */
+    background-repeat: no-repeat;
     border: 1px solid black;
 }
 
@@ -25,11 +25,13 @@
 .past-projects .project3 {
     background-image: url("./project-images/project3.jpeg");
     margin-right: 10px;
+    background-repeat: no-repeat;
 }
 
 .past-projects .project2 {
     background-image: url("./project-images/project2.jpeg");
-    margin-right: 10px;
+    background-repeat: no-repeat;
+    /* margin-right: 10px; */
 }
 
 .project-image {
