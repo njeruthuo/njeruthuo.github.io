@@ -1,0 +1,165 @@
+p {
+    margin: 0;
+    line-height: 18px;
+}
+
+.container-head{
+    position: relative;
+}
+
+.social-links{
+    /* background-color: blue; */
+    color: gray;
+    font-size: 18px;
+    font-style: oblique;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white(14, 14, 14);
+    right: 200px;
+    padding: 8px;
+    left: 200px;
+}
+
+
+.about-div {
+    padding-top: 3rem;
+    margin: 150px 2rem;
+    padding-bottom: 5rem;
+    border: 1px solid gray;
+    box-shadow: inset 2px 3px 3px gray;
+}
+
+.docs,
+.honours,
+.experience,
+.certifications,
+.summary-abt-me,
+.education {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.certifications .cert-title,
+.docs-intro,
+.honours .honour-title,
+.experience .experience-header,
+.summary-abt-me .summary-header,
+.education .education-header {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.certifications .cert-skills,
+.summary-abt-me .summary-body,
+.honours .honour-description,
+.experience .roles {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+}
+
+.experience-position,
+.honours .honour-period,
+.certifications .cert-period,
+.education .institution {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.roles p {
+    margin-top: 5px;
+}
+
+.education {
+    margin-top: 10px;
+}
+
+.program-enroled {
+    font-size: 15px;
+    /* font-style: oblique; */
+    color: gray;
+    padding: 5px 0;
+}
+
+.duration {
+    font-size: smaller;
+    font-weight: lighter;
+    color: rgb(96, 96, 96);
+}
+
+.status {
+    font-style: oblique;
+    font-size: smaller;
+    font-weight: lighter;
+    color: rgb(96, 96, 96);
+    padding: 5px 0;
+}
+
+.cert {
+    margin: 8px 0;
+}
+
+.cert-skills {
+    margin: 3px;
+}
+
+.docs{
+    display: grid;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.docs div{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    transition: opacity .7s;
+}
+
+.docs div:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    color: black;
+}
+
+.docs-intro{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.thumbnail{
+    width: 20px;
+}
+
+.social-app{
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter,
+.whatsapp,
+.linkedin,
+.github{
+    font-size: 12px;
+}
+
+
+.social-links{
+    margin-top: 5rem;
+}
