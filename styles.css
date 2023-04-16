@@ -6,6 +6,11 @@ ul {
     list-style: none;
 }
 
+.body-class{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .header {
     display: flex;
     border-bottom: .8px solid rgb(221, 220, 220);
@@ -16,6 +21,8 @@ ul {
     position: fixed;
     top: 0;
     z-index: 500;
+    /* margin-left: 2rem; */
+    /* margin-right: 2rem; */
     right: 0;
     left: 0;
     font-size: 2rem;
@@ -24,16 +31,14 @@ ul {
 }
 
 .intro {
-    width: 85%;
+    width: 100%;
     padding-top: 175px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (max-width: 600px) {
     .intro {
-        /* width: 85%; */
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -41,7 +46,7 @@ ul {
 
 .th-dots-container {
     display: flex;
-    margin-left: 10px;
+    margin-left: 2rem;
     background: rgb(170, 165, 165);
 }
 
@@ -136,13 +141,9 @@ span {
     font-style: italic;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     .two-divs-container {
-        padding-top: 8px;
         display: grid;
         grid-template-columns: 1fr;
-        border-top: none;
-        border: 1px solid black;
-        flex-direction: row;
     }
 }

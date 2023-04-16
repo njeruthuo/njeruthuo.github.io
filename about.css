@@ -7,21 +7,43 @@ p {
     position: relative;
 }
 
+.header {
+    display: flex;
+    border-bottom: .8px solid rgb(221, 220, 220);
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    right: 0;
+    left: 0;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    font-weight: bold;
+}
+
 .social-links{
     /* background-color: blue; */
     color: gray;
     font-size: 18px;
     font-style: oblique;
     cursor: pointer;
+    /* width: 100%; */
     position: absolute;
     bottom: 0;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     color: white(14, 14, 14);
-    right: 200px;
+    right: 30%;
     padding: 8px;
-    left: 200px;
+    left: 30%;
+}
+
+.name{
+    margin-bottom: 15px;
 }
 
 
@@ -141,6 +163,7 @@ p {
 
 .thumbnail{
     width: 20px;
+    display: block;
 }
 
 .social-app{
@@ -149,6 +172,7 @@ p {
     padding-bottom: 0;
     flex-direction: column;
     justify-content: center;
+    vertical-align: top;
     align-items: center;
 }
 
@@ -156,10 +180,27 @@ p {
 .whatsapp,
 .linkedin,
 .github{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 
 .social-links{
+    /* width: 100%; */
+    /* background: blue; */
     margin-top: 5rem;
+    display: flex;
+    /* vertical-align: top; */
+}
+
+.cert-item{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .docs {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
