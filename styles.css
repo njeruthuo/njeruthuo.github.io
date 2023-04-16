@@ -21,12 +21,9 @@ ul {
     position: fixed;
     top: 0;
     z-index: 500;
-    /* margin-left: 2rem; */
-    /* margin-right: 2rem; */
     right: 0;
     left: 0;
     font-size: 2rem;
-    /* margin-bottom: 5rem; */
     font-weight: bold;
 }
 
